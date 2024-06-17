@@ -1,3 +1,5 @@
+from typing import Generator
+
 
 def is_prime(n: int) -> bool :
     if n == 2:
@@ -12,3 +14,8 @@ def is_prime(n: int) -> bool :
         i = i + 2
 
     return True
+
+def list_of_primes() -> Generator[int, None, None]:
+    for i in range(2, 100000):
+        if is_prime(i):
+            yield i

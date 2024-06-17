@@ -1,11 +1,8 @@
 from typing import Generator
-from PrimeNumberChecker import is_prime
+from ListOfPrimes import list_of_primes,is_prime
+from PrimeFactorization import factorize_to_primes
 
 
-def list_of_primes() -> Generator[int, None, None]:
-    for i in range(2, 100000):
-        if is_prime(i):
-            yield i
 
 
 tmp_product = 1
@@ -16,5 +13,6 @@ for prime in list_of_primes():
     if not is_prime(tmp_product + 1):
         print(tmp_product + 1)
         print(primes)
+        print(factorize_to_primes(tmp_product + 1))
         break
 

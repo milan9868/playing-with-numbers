@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208ec615-a17c-44f3-922c-8c46fc19efd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Looping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimeNumberChecker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="208ec615-a17c-44f3-922c-8c46fc19efd3" name="Changes" comment="PrimeNumberChecker and problem from Rotman's book">
+      <change afterPath="$PROJECT_DIR$/PrimeFactorization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Looping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Looping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +24,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "milan9868"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/milan9868/playing-with-numbers.git",
+    "accountId": "e226d357-e34b-4d9c-a116-72039a5283af"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -41,7 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Looping.executor": "Debug",
+    "Python.Looping.executor": "Run",
     "Python.PrimeNumberChecker.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "working",
@@ -64,6 +75,15 @@
       <option name="presentableId" value="Default" />
       <updated>1718055986004</updated>
     </task>
+    <task id="LOCAL-00001" summary="PrimeNumberChecker and problem from Rotman's book">
+      <option name="closed" value="true" />
+      <created>1718624654653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718624654654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,15 +97,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Looping.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PrimeNumberChecker and problem from Rotman's book" />
+    <option name="LAST_COMMIT_MESSAGE" value="PrimeNumberChecker and problem from Rotman's book" />
   </component>
 </project>
